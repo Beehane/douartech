@@ -1,0 +1,222 @@
+  figure img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      width: 100%;
+  }
+  
+  .inner2 {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  
+  .grid-view hr {
+      padding-top: 20px;
+      margin-bottom: 50px;
+  }
+  
+  .grid-view figure.main,
+  .carousel-boxed figure {
+      margin: 0;
+  }
+  
+  .carousel.blog .owl-nav {
+      margin: 0;
+      top: 106px;
+  }
+  
+  .category.cat9 span a:hover {
+      background: rgba(207, 121, 145, 1);
+  }
+  
+  .category.cat9 span a {
+      background: rgba(207, 121, 145, 0.9);
+  }
+  
+  .owl-carousel .caption-overlay .caption.bottom-right .category {
+      right: 25px;
+      left: auto;
+  }
+  
+  .owl-carousel .caption-overlay .caption.bottom-left .category {
+      left: 25px;
+  }
+  
+  .post .box {
+      margin-bottom: 30px;
+      padding-bottom: 15px;
+  }
+  
+  .box {
+      background: #FFF;
+      padding: 30px;
+      box-shadow: 0 2px 0 rgba(29, 29, 33, 0.07);
+      font-family: 'Karla', sans-serif;
+  }
+  
+  .image-grid .box {
+      padding: 20px
+  }
+  
+  .box figure.main {
+      margin: 20px -30px
+  }
+  
+  .box .main {
+      margin: 0 -30px 30px -30px !important
+  }
+  
+  .box {
+      position: relative;
+  }
+  
+  .post .box .post-title {
+      margin-top: 5px;
+  }
+  
+  .box .category {
+      position: absolute;
+      width: 100%;
+      top: -15px;
+      left: 0;
+  }
+  
+  .classic-view .box .category {
+      position: relative;
+      top: auto;
+      left: auto;
+      margin-bottom: 15px;
+  }
+  
+  .box .category span {
+      color: #FFF;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      font-size: 11px;
+      display: inline-block;
+      font-weight: bold;
+  }
+  
+  .box .category span a {
+      color: #FFF;
+      padding: 8px 15px;
+      display: block;
+  }
+  
+  .small-quote .quote .box:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: -10px;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right: 10px solid #FFF;
+  }
+  
+  .small-quote .quote.right .box:before {
+      left: auto;
+      right: -10px;
+      border-right: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 10px solid #FFF;
+  }
+  
+  .small-quote .box {
+      padding: 30px 30px 10px 10px;
+  }
+  
+  .meta,
+  .meta a,
+  .more {
+      color: #999999;
+      font-size: 12px;
+      text-transform: uppercase;
+  }
+  
+  .meta span:before {
+      content: "/";
+      padding: 0 10px;
+      color: #b5b5b5;
+  }
+  
+  .post-title a {
+      color: #3b3b3b
+  }
+  
+  .post-title a:hover {
+      color: #70aed2
+  }
+  
+  .box .category span {
+      color: #FFF;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      font-size: 11px;
+      display: inline-block;
+      font-weight: bold;
+  }
+  
+  .pagination {
+      display: block;
+      margin: 0;
+      overflow: hidden;
+      border-radius: 0;
+      padding-bottom: 3px;
+  }
+  
+  .pagination ul {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+  }
+  
+  .pagination ul>li {
+      display: inline-block;
+      margin-right: 2px;
+  }
+  
+  .pagination ul>li>a,
+  .pagination ul>li>span {
+      float: none
+  }
+  
+  .pagination ul>li>a {
+      background: #FFF;
+      font-size: 14px;
+      color: #3b3b3b;
+      font-weight: 700;
+      display: inline-block;
+      padding: 9px 18px;
+      box-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+  }
+  
+  .pagination ul>li:first-child>a,
+  .pagination ul>li:last-child>a {}
+  
+  .pagination ul>li>a:hover,
+  .pagination ul>li>a:focus,
+  .pagination ul>.active>a,
+  .pagination ul>.active>span {
+      color: #70aed2
+  }
+  
+  .blog {
+      padding-top: 10%
+  }
+  
+  @media (max-width: 767px) {
+      .grid-view .post .box {
+          margin-bottom: 0;
+      }
+      [class*="col-"] {
+          margin-bottom: 30px
+      }
+  }
