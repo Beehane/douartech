@@ -347,6 +347,13 @@ button,
     background-size: cover;
 }
 
+.dt-timeline .head_section {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
 .head_section {
     position: relative;
     width: 100%;
@@ -359,7 +366,7 @@ button,
     border-right: 2px solid #e4674e;
     padding: 0 18px;
     display: inline-block;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 300;
 }
 
@@ -666,22 +673,6 @@ button,
 .whchoise {
     position: relative;
     width: 100%;
-}
-
-.timeline {
-    list-style: none;
-    padding: 0;
-    position: relative;
-}
-
-.timeline:before {
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    content: " ";
-    width: 1px;
-    background-color: #dddddd;
-    left: 50%;
 }
 
 .timeline>li {
