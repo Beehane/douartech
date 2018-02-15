@@ -12,7 +12,7 @@ img {
 }
 
 p {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 18px;
 }
 
@@ -1692,6 +1692,9 @@ form .er {
 @media (max-width: 1024px) {}
 
 @media (max-width: 991px) {
+    #h-timeline {
+        visibility: hidden;
+    }
     .nav>li>a {
         margin-left: 25px;
     }
