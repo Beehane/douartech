@@ -113,7 +113,7 @@ button,
     z-index: 10;
     left: 0;
     right: 0;
-    top: 100px;
+    top: 60%;
     bottom: 0;
 }
 
@@ -157,8 +157,8 @@ button,
 }
 
 #homeSlider .sltext {
-    margin: 55px 0;
-    font-size: 52px;
+    /* margin: 55px 0; */
+    font-size: 32px;
     font-weight: 400;
     line-height: 1;
     text-shadow: 1px 2px #a0a0a0;
@@ -1634,7 +1634,7 @@ form .er {
     height: 400px;
     text-align: center;
     color: #fff;
-    background: url(../images/dt02.jpg) no-repeat center top fixed;
+    background: url(../images/bg03.jpg) no-repeat center top fixed;
     background-size: cover;
     margin-top: 10px;
     padding-top: 80px;
@@ -1680,10 +1680,10 @@ form .er {
         height: 1080px;
     }
     #homeSlider .carousel-caption {
-        top: 190px;
+        top: 230px;
     }
     #homeSlider .sltext {
-        font-size: 85px;
+        font-size: 52px;
     }
 }
 
@@ -1735,8 +1735,8 @@ form .er {
         height: 430px;
     }
     #homeSlider .sltext {
-        font-size: 32px;
-        margin: 30px 0;
+        font-size: 24px;
+        /* margin: 30px 0; */
     }
     .slide-logo {
         width: 60px;
@@ -1750,8 +1750,8 @@ form .er {
         font-size: 12px;
     }
     #homeSlider .sltext {
-        font-size: 22px;
-        margin: 25px 0;
+        font-size: 18px;
+        /* margin: 25px 0; */
     }
     #homeSlider .getst {
         font-size: 14px;
@@ -1791,7 +1791,7 @@ form .er {
         width: auto;
     }
     #homeSlider .sltext {
-        font-size: 32px;
+        font-size: 23px;
     }
     .services {
         padding-top: 30px;
@@ -1828,7 +1828,7 @@ form .er {
         height: 360px;
     }
     #homeSlider .sltext {
-        font-size: 20px;
+        font-size: 16px;
     }
     #homeSlider .getst {
         margin-top: 20px
@@ -1869,7 +1869,7 @@ form .er {
 @media (max-width: 320px) {
     #homeSlider .sltext {
         font-size: 18px;
-        margin: 20px 0;
+        /* margin: 20px 0; */
     }
     .parallax_b,
     .parallax_d {
