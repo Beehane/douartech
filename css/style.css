@@ -1634,7 +1634,7 @@ form .er {
     height: 400px;
     text-align: center;
     color: #fff;
-    background: url(../images/bg03.jpg) no-repeat center top fixed;
+    background: url(../images/bg03.jpg) center top fixed;
     background-size: cover;
     margin-top: 10px;
     padding-top: 80px;
